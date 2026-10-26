@@ -1,0 +1,17 @@
+{
+  "name": "api-vendas-comissoes",
+  "version": "1.0.0",
+  "description": "API REST (Node.js + Express + MySQL) para gestão de vendedores, vendas, comissões e metas",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  }
+}
